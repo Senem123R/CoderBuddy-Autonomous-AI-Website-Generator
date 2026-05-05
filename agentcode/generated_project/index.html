@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="calculator" class="calculator">
+        <div id="display" class="display" aria-live="polite">0</div>
+        <div class="keypad">
+            <!-- Clear -->
+            <button class="btn clear" data-value="C" role="button" aria-label="Clear">C</button>
+            <!-- Backspace -->
+            <button class="btn backspace" data-value="←" role="button" aria-label="Backspace">←</button>
+            <!-- Operators -->
+            <button class="btn operator" data-value="/" role="button" aria-label="Divide">/</button>
+            <button class="btn operator" data-value="*" role="button" aria-label="Multiply">*</button>
+            <button class="btn operator" data-value="-" role="button" aria-label="Subtract">-</button>
+            <button class="btn operator" data-value="+" role="button" aria-label="Add">+</button>
+            <!-- Digits -->
+            <button class="btn digit" data-value="7" role="button" aria-label="7">7</button>
+            <button class="btn digit" data-value="8" role="button" aria-label="8">8</button>
+            <button class="btn digit" data-value="9" role="button" aria-label="9">9</button>
+            <button class="btn digit" data-value="4" role="button" aria-label="4">4</button>
+            <button class="btn digit" data-value="5" role="button" aria-label="5">5</button>
+            <button class="btn digit" data-value="6" role="button" aria-label="6">6</button>
+            <button class="btn digit" data-value="1" role="button" aria-label="1">1</button>
+            <button class="btn digit" data-value="2" role="button" aria-label="2">2</button>
+            <button class="btn digit" data-value="3" role="button" aria-label="3">3</button>
+            <button class="btn digit" data-value="0" role="button" aria-label="0">0</button>
+            <button class="btn equals" data-value="=" role="button" aria-label="Equals">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
